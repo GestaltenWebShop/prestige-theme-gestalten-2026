@@ -234,6 +234,13 @@
     "name": "t:theme_settings.typography.name",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "gestalten_font_mode",
+        "label": "Gestalten font override",
+        "info": "Uses gestalten custom fonts: Zimmer and Malaussene",
+        "default": true
+      },
+      {
         "type": "header",
         "content": "t:theme_settings.typography.headings_category"
       },
