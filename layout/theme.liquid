@@ -55,6 +55,10 @@
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+    {{- 'gestalten.css' | asset_url | stylesheet_tag: preload: true -}}
+    {%- if settings.gestalten_font_mode -%}
+      {% style %}{% render 'gestalten-fonts' %}{% endstyle %}
+    {%- endif -%}
   </head>
 
   {% liquid
