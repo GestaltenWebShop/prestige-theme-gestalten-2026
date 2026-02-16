@@ -87,6 +87,18 @@ note that this may have impact on different places.
     --button-text-transform: {{ settings.button_text_transform }};
     --button-letter-spacing: {% if language_code == 'ar' %}0{% else %}{{ settings.button_letter_spacing | divided_by: 100.0 }}{% endif %}em;
 
+  {%- comment -%} Gestalten custom font overrides {%- endcomment -%}
+  {%- if settings.gestalten_font_mode -%}
+    /* Headings: Zimmer */
+    --heading-font-family: 'MalausseneRoman', {{ settings.heading_font.fallback_families }};
+    /* If Zimmer only exists at 500, keep headings consistent: */
+    --heading-font-weight: 400;
+    --heading-font-style: normal;
+
+    /* Body: Malaussene */
+    --text-font-family: 'ZimmerMedium', {{ settings.text_font.fallback_families }};
+  {%- endif -%}
+
     /* Font sizes */
     {%- comment -%}
     IMPLEMENTATION NOTE: Our theme uses, for heading, a fluid typography, which means it will linearly increased from a
