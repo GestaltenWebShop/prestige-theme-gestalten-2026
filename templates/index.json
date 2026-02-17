@@ -1,1 +1,856 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-1":{"type":"image","settings":{"subheading":"Our bag","title":"Inspired by the 90s","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","content_max_width":780,"button_1_text":"Shop now","button_1_style":"fill","button_1_background":"#ffffff","button_1_text_color":"#1c1c1c","button_2_style":"solid","button_2_background":"#1c1c1c","button_2_text_color":"#ffffff","background_opacity":50,"text_color":"#ffffff","gradient_overlay":"linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 100%)"}},"slide-2":{"type":"image","settings":{"subheading":"Our bag","title":"Elegant & Timeless","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","content_max_width":400,"button_1_text":"View collection","button_1_style":"solid","button_1_background":"#ffffff","button_1_text_color":"#000000","button_2_style":"outline","button_2_background":"#ffffff","button_2_text_color":"#000000","background_opacity":50,"text_color":"#ffffff","border_color":"#ffffff","gradient_overlay":"linear-gradient(180deg, rgba(54, 54, 54, 0.1), rgba(4, 4, 4, 0.45) 100%)"}}},"block_order":["slide-1","slide-2"],"settings":{"allow_transparent_header":true,"show_next_section_button":true,"media_size":"fill","show_initial_transition":true,"autoplay":true,"autoplay_pause_on_video":true,"cycle_speed":5,"background":"#000000","controls_color":"#ffffff"}},"featured-collections-1":{"type":"featured-collections","blocks":{"collection-1":{"type":"collection","settings":{"products_count":8,"title":"Women","link_url":"shopify:\/\/collections\/all","link_text":"All women's bags"}},"collection-2":{"type":"collection","settings":{"products_count":8,"title":"Men","link_url":"shopify:\/\/collections\/all","link_text":"All men's bags"}}},"block_order":["collection-1","collection-2"],"settings":{"color_scheme":"scheme-1","separate_section_with_border":false,"hide_product_information":false,"stack_products":false,"products_per_row_mobile":"2","products_per_row_desktop":4,"horizontal_spacing_factor":1,"vertical_spacing_factor":1,"subheading":"Our best sellers"}},"image-with-text-overlay-1":{"type":"image-with-text-overlay","blocks":{"subheading-1":{"type":"subheading","settings":{"text":"New product"}},"heading-1":{"type":"heading","settings":{"text":"Our backpack","heading_tag":"h2"}},"button-1":{"type":"button","settings":{"style":"solid","text":"Shop","background":"#ffffff","text_color":"#1c1c1c"}}},"block_order":["subheading-1","heading-1","button-1"],"settings":{"color_scheme":"scheme-4","image_size":"sm","allow_transparent_header":false,"reveal_on_scroll":true,"remove_vertical_spacing":true,"content_width":"md","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-end-start sm:text-start","overlay_color":"#000000","overlay_opacity":20}},"rich-text":{"type":"rich-text","blocks":{"heading-1":{"type":"heading","settings":{"text":"Our aim: offer elegant, timeless & functional products","heading_tag":"h1"}},"link-1":{"type":"link","settings":{"text":"Our story"}},"link-2":{"type":"link","settings":{"text":"Commitments"}}},"block_order":["heading-1","link-1","link-2"],"settings":{"color_scheme":"scheme-1","separate_section_with_border":true,"content_width":"xs","text_position":"center","remove_vertical_spacing":false}},"media-grid":{"type":"media-grid","blocks":{"image-1":{"type":"image","settings":{"color_scheme":"scheme-4","column_count":"8","row_count":2,"title":"Women","heading_tag":"h1","link_style":"link","text_position":"place-self-center text-center","overlay_color":"#000000","overlay_opacity":0}},"image-2":{"type":"image","settings":{"color_scheme":"scheme-4","column_count":"4","row_count":1,"title":"Men","heading_tag":"h3","link_style":"link","text_position":"place-self-center text-center","overlay_color":"#000000","overlay_opacity":0}},"image-3":{"type":"image","settings":{"color_scheme":"scheme-4","column_count":"4","row_count":1,"title":"Accessories","heading_tag":"h4","link_style":"link","text_position":"place-self-center text-center","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["image-1","image-2","image-3"],"settings":{"color_scheme":"scheme-1","separate_section_with_border":false,"desktop_row_height":290,"mobile_row_height":180,"section_width":"lg","spacing":"md"}},"scrolling-content-1":{"type":"scrolling-content","blocks":{"text-1":{"type":"text","settings":{"text":"New: our bag"}}},"block_order":["text-1"],"settings":{"separate_section_with_border":true,"scrolling_speed":0.3,"scroll_direction":"left","pause_on_hover":false,"text_font":"heading","text_font_size_mobile":32,"text_font_size_desktop":64,"section_vertical_spacing_mobile":20,"section_vertical_spacing_desktop":40,"item_horizontal_spacing_mobile":25,"item_horizontal_spacing_desktop":50,"text_color":"#b3b3b3"}},"scrolling-content-2":{"type":"scrolling-content","blocks":{"text-1":{"type":"text","settings":{"text":"Show new arrivals"}}},"block_order":["text-1"],"settings":{"separate_section_with_border":true,"scrolling_speed":0.3,"scroll_direction":"right","pause_on_hover":false,"text_font":"heading","text_font_size_mobile":32,"text_font_size_desktop":64,"section_vertical_spacing_mobile":20,"section_vertical_spacing_desktop":40,"item_horizontal_spacing_mobile":25,"item_horizontal_spacing_desktop":50,"text_color":"#b3b3b3"}},"featured-collections-2":{"type":"featured-collections","blocks":{"collection-1":{"type":"collection","settings":{"products_count":5,"title":"Ideal for a weekend outing"}}},"block_order":["collection-1"],"settings":{"color_scheme":"scheme-1","separate_section_with_border":true,"hide_product_information":false,"stack_products":false,"products_per_row_mobile":"2","products_per_row_desktop":4,"horizontal_spacing_factor":1,"vertical_spacing_factor":1,"subheading":"Be classy"}},"video":{"type":"video","blocks":{"subheading-1":{"type":"subheading","settings":{"text":"Made in Italy"}},"heading-1":{"type":"heading","settings":{"text":"Finest handmade","heading_tag":"h2"}},"play-1":{"type":"play","settings":{"icon_color":"#ffffff"}}},"block_order":["subheading-1","heading-1","play-1"],"settings":{"autoplay":false,"show_controls":true,"video_size":"md","external_video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","text_color":"#1c1c1c"}},"shop-the-look":{"type":"shop-the-look","blocks":{"look-1":{"type":"look","settings":{"hot_spots_background":"#ffffff","product_1_horizontal_position":24,"product_1_vertical_position":35,"product_2_horizontal_position":67,"product_2_vertical_position":51,"product_3_horizontal_position":30,"product_3_vertical_position":65}},"look-2":{"type":"look","settings":{"hot_spots_background":"#ffffff","product_1_horizontal_position":35,"product_1_vertical_position":58,"product_2_horizontal_position":69,"product_2_vertical_position":75,"product_3_horizontal_position":75,"product_3_vertical_position":30}}},"block_order":["look-1","look-2"],"settings":{"color_scheme":"scheme-1","separate_section_with_border":true,"subheading":"Shop","title":"Our looks","popover_title":"Shop the look"}},"countdown":{"type":"countdown","settings":{"color_scheme":"scheme-3","separate_section_with_border":false,"image_size":"auto","subheading":"Limited time only","title":"Super Sale Up to 40% off","content":"<p>Shop our selection of exclusive handbags and backpacks at reduced price during the Super Sale. Hurry up!<\/p>","button_link":"shopify:\/\/collections\/sale","button_text":"Shop now","expiration_date":"2035-04-25","expiration_behavior":"leave","timer_position":"end","animate_number":true,"flip_background":"","flip_background_opacity":50,"flip_text_color":"","overlay_color":"#1c1c1c","overlay_opacity":30}},"multiple-media-with-text":{"type":"multiple-media-with-text","blocks":{"image-1":{"type":"image","settings":{"rotation":0}},"image-2":{"type":"image","settings":{"rotation":0}}},"block_order":["image-1","image-2"],"settings":{"color_scheme":"scheme-1","reveal_on_scroll":true,"separate_section_with_border":true,"media_position_desktop":"after_text","media_position_mobile":"before_text","media_layout":"overlap","media_alignment":"end","media_alignment_offset":80,"media_mobile_alignment_offset":40,"text_alignment":"center","subheading":"collaboration","title":"Us x them","content":"<p>Born from the meeting of a minimalist creative and a timeless design studio, this collection combines refined aesthetics with thoughtful craftsmanship. Their shared vision results in pieces that are both elegant and understated.<\/p>","button_1_text":"discover","button_1_style":"solid","button_2_style":"solid"}},"before-after":{"type":"before-after","blocks":{"before-1":{"type":"before","settings":{"color_scheme":"scheme-1","text":"Before","link_text":"View product","link_style":"link"}},"after-1":{"type":"after","settings":{"color_scheme":"scheme-1","text":"After","link_text":"View product","link_style":"link"}}},"block_order":["before-1","after-1"],"settings":{"color_scheme":"scheme-1","separate_section_with_border":false,"subheading":"Our bag","title":"Choose your colour","cursor_direction":"horizontal","cursor_initial_position":50,"cursor_background":"#ffffff","cursor_arrows_color":"#000000"}},"images-with-text-scroll":{"type":"images-with-text-scroll","blocks":{"image-with-text-1":{"type":"image_with_text","settings":{"subheading":"#1","title":"The Design","content":"<p>Each piece is designed with your needs at heart. All products are imagined and developed in our studio, where ideas often stem from the thoughtful feedback we receive throughout the year.<\/p>","link_text":"Learn more","link_style":"link"}},"image-with-text-2":{"type":"image_with_text","settings":{"subheading":"#2","title":"Our commitments","content":"<p>From the very beginning, responsibility has been a core value — both towards you and the environment. From design to distribution, each step is approached with care to create pieces that are timeless, high quality, and fairly priced.<\/p>","link_text":"Learn more","link_style":"link"}}},"block_order":["image-with-text-1","image-with-text-2"],"settings":{"color_scheme":"scheme-3","image_position":"start","text_alignment":"center","heading_tag":"h3","overlay_color":"#000000","overlay_opacity":20}},"blog-posts":{"type":"blog-posts","settings":{"color_scheme":"scheme-1","separate_section_with_border":true,"blog":"news","posts_count":3,"stack_on_mobile":false,"show_category":true,"show_date":false,"show_excerpt":false,"show_read_more":true,"subheading":"News","title":"From the blog","button_link":"shopify:\/\/blogs\/news","button_text":"Discover all our stories"}},"featured-product":{"type":"featured-product","blocks":{"badges-1":{"type":"badges","settings":{}},"title-1":{"type":"title","settings":{"heading_tag":"h3"}},"price-1":{"type":"price","settings":{"show_taxes_notice":false}},"payment-terms-1":{"type":"payment_terms","settings":{}},"separator-1":{"type":"separator","settings":{}},"description-1":{"type":"description","settings":{"collapse_content":false}},"variant-picker-1":{"type":"variant_picker","settings":{"hide_sold_out_variants":false,"selector_style":"block","swatch_selector_style":"swatch"}},"quantity-selector-1":{"type":"quantity_selector","settings":{}},"buy-buttons-1":{"type":"buy_buttons","settings":{"show_payment_button":false,"show_gift_card_recipient":false}},"pickup-availability-1":{"type":"pickup_availability","settings":{}}},"block_order":["badges-1","title-1","price-1","payment-terms-1","separator-1","description-1","variant-picker-1","quantity-selector-1","buy-buttons-1","pickup-availability-1"],"settings":{"color_scheme":"scheme-1","separate_section_with_border":true,"container_size":"lg","product_info_size":45,"center_basic_info":false,"desktop_media_layout":"carousel_dots","desktop_media_grid_gap":30,"mobile_controls":"dots","enable_media_autoplay":true,"enable_video_looping":true,"enable_image_zoom":false,"max_image_zoom_level":3,"subheading":"Our selection","title":"Product of the week"}},"image-with-text-block":{"type":"image-with-text-block","blocks":{"subheading-1":{"type":"subheading","settings":{"text":"Materials"}},"richtext-1":{"type":"richtext","settings":{"content":"<p>We only work with the best leather, chosen in collaboration with our factory.<\/p>"}},"link-1":{"type":"link","settings":{"text":"Learn more"}}},"block_order":["subheading-1","richtext-1","link-1"],"settings":{"color_scheme":"scheme-2","image_size":"md","content_width":"md","enable_parallax":false,"remove_vertical_spacing":true}},"testimonials":{"type":"testimonials","blocks":{"testimonial-1":{"type":"testimonial","settings":{"content":"<p>Sleek and compact, this piece keeps everything organized with just the right balance of structure and softness.<\/p>","logo_max_width":140,"logo_mobile_max_width":100}},"testimonial-2":{"type":"testimonial","settings":{"content":"<p>Whether in classic black or a bold tone, it stands out for its smart compartments and refined leather finish.<\/p>","logo_max_width":140,"logo_mobile_max_width":100}},"testimonial-3":{"type":"testimonial","settings":{"content":"<p>Minimalist design meets everyday function — perfect for keeping your essentials secure and stylish on the go.<\/p>","logo_max_width":140,"logo_mobile_max_width":100}}},"block_order":["testimonial-1","testimonial-2","testimonial-3"],"settings":{"color_scheme":"scheme-3","separate_section_with_border":true,"auto_rotate_between_testimonials":false,"cycle_speed":5,"font_size_factor":1}},"timeline":{"type":"timeline","blocks":{"item-1":{"type":"item","settings":{"label":"2013","subheading":"","title":"A story of shared vision","content":"<p>This project began with two creative minds, united by both passion and purpose. From day one, the goal was clear: to build something meaningful together. What started as a simple idea turned into a first product launch—and the beginning of a lasting journey.<\/p>","link_style":"link","mobile_text_color":"#ffffff"}},"item-2":{"type":"item","settings":{"label":"2014","subheading":"","title":"No middlemen","content":"<p>By working directly with you, we eliminate unnecessary markups and focus on what matters: offering thoughtfully designed, high-quality pieces at a fair price. A modern approach to fashion, rooted in transparency.<\/p>","link_style":"link","mobile_text_color":"#ffffff"}},"item-3":{"type":"item","settings":{"label":"2015","subheading":"","title":"Crafted in Italy","content":"<p>Production takes place in a family-run workshop near Naples, known for its artisanal expertise. The collaboration is close and ongoing, with daily conversations shaping both the process and the products. More than just a manufacturer—true partners in craft.<\/p>","link_style":"link","mobile_text_color":"#ffffff"}},"item-4":{"type":"item","settings":{"label":"2017","title":"Discover our products","content":"<p>Located in the heart of the city, our showroom is open throughout the week and offers the ideal place to explore the full range in person.<\/p>","link_style":"link","mobile_text_color":"#ffffff"}}},"block_order":["item-1","item-2","item-3","item-4"],"settings":{"color_scheme":"scheme-1","item_color_scheme":"scheme-2","separate_section_with_border":false}},"image-with-text-overlay-2":{"type":"image-with-text-overlay","blocks":{"heading-1":{"type":"heading","settings":{"text":"Our values","heading_tag":"h3"}},"richtext-1":{"type":"richtext","settings":{"content":"<p>We aspire to be a brand of the 21st century: 100% online and without any intermediary.<br\/>From you to us directly.<\/p>"}}},"block_order":["heading-1","richtext-1"],"settings":{"color_scheme":"scheme-4","image_size":"auto","allow_transparent_header":false,"reveal_on_scroll":true,"remove_vertical_spacing":true,"content_width":"xs","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","overlay_color":"#000000","overlay_opacity":30}},"multi-column":{"type":"multi-column","blocks":{"image-with-text-1":{"type":"image_with_text","settings":{"title":"The design","heading_tag":"h4","content":"<p>Every product is imagined and developed in our studio, with a focus on both form and function.<\/p>"}},"image-with-text-2":{"type":"image_with_text","settings":{"title":"Materials","heading_tag":"h4","content":"<p>Our materials come from hides sourced as byproducts of the food industry. We collaborate exclusively with trusted tanneries based in Italy, France, and Spain.<\/p>"}},"image-with-text-3":{"type":"image_with_text","settings":{"title":"The know-how","heading_tag":"h4","content":"<p>Every step of the process follows the rigorous standards of traditional leatherworking—ensuring durability, precision, and lasting quality.<\/p>"}}},"block_order":["image-with-text-1","image-with-text-2","image-with-text-3"],"settings":{"color_scheme":"scheme-1","separate_section_with_border":true,"columns_per_row":3,"stack_on_mobile":false,"overlap_image":false,"content_alignment":"center","text_alignment":"center","spacing":"md","subheading":"About us","title":"From A to Z"}},"newsletter":{"type":"newsletter","settings":{"color_scheme":"scheme-3","separate_section_with_border":true,"image_size":"md","subheading":"Keep me updated","title":"Newsletter","content":"<p>Subscribe to get notified about product launches, special offers and company news.<\/p>","button_text":"Subscribe","overlay_color":"#000000","overlay_opacity":30}}},"order":["slideshow","featured-collections-1","image-with-text-overlay-1","rich-text","media-grid","scrolling-content-1","scrolling-content-2","featured-collections-2","video","shop-the-look","countdown","multiple-media-with-text","before-after","images-with-text-scroll","blog-posts","featured-product","image-with-text-block","testimonials","timeline","image-with-text-overlay-2","multi-column","newsletter"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_KLXC4k": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Lyf9r6": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_g88Gie": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_rdrFdV": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Lyf9r6",
+        "heading_g88Gie",
+        "richtext_rdrFdV"
+      ],
+      "name": "== BLANK ==",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "md",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image_3Kqfdh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Prestige_Slideshow_ESCART_desk_3200x1200_384287ab-2436-4767-b486-ef6bb9108bc9.jpg",
+            "mobile_image": "shopify://shop_images/Prestige_Slideshow_ESCART_mobile_1200x1600_d467bd8c-e896-42c5-8fef-9584eb9259d4.jpg",
+            "subheading": "Cultural Experiences Around the Globe",
+            "title": "The Art Escapes Atlas",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://products/the-art-escapes-atlas",
+            "button_1_style": "outline",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_3H86b8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/slide_JACWIN_3200x1200_81b5896c-749c-4ca2-b6ec-7122a57d6efd.jpg",
+            "mobile_image": "shopify://shop_images/slide_JACWIN_1200x1600_51f5765d-ae7c-4a8d-8817-c2f376794e51.jpg",
+            "subheading": "The Colors of Snow",
+            "title": "Winterland",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://products/teneues-winterland-the-colors-of-snow",
+            "button_1_style": "outline",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_ECMYDU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Designed_to_Stay_Slideshow.png",
+            "mobile_image": "shopify://shop_images/Designed_to_Stay_Slideshow_vertikal.png",
+            "subheading": "The Design Hotels™ Book",
+            "title": "Designed to Stay",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://products/designed-to-stay",
+            "button_1_style": "outline",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_yVDyeT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/slideshow_COWWES_3200x1200_9f4a7130-5e3c-48a3-82ad-ea1f8ef7fe4f.jpg",
+            "mobile_image": "shopify://shop_images/slideshow_COWWES_1200x1600_9e63daa9-5089-4b07-9af0-2b02159e5f14.jpg",
+            "subheading": "Cowboys of the West",
+            "title": "A Ranch Year",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://products/teneues-a-ranch-year-cowboys-of-the-west",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/slide_ONKAN_3200x1200_30aa57ce-7598-4565-87c8-05dffed31f20.jpg",
+            "mobile_image": "shopify://shop_images/slide_ONKAN_1200x1600_6dc41f7e-4fbc-4117-b9fe-19adcedaa2b1.jpg",
+            "subheading": "Traditional Spa and Bathing Culture",
+            "title": "Onsen and Ryokan of Japan",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://products/onsen-and-ryokan-of-japan-traditional-spa-and-bathing-culture",
+            "button_1_style": "outline",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_3Kqfdh",
+        "image_3H86b8",
+        "image_ECMYDU",
+        "image_yVDyeT",
+        "slide-1"
+      ],
+      "name": "SLIDESHOW",
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 6,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-releases",
+            "products_count": 24,
+            "title": "New Books",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_FgxafF": {
+          "type": "collection",
+          "settings": {
+            "collection": "most-popular",
+            "products_count": 48,
+            "title": "Most Popular",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection_FgxafF"
+      ],
+      "name": "NEW & BESTSELLING",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "multiple_media_with_text_peKqAk": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_jPK7rJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hp_spotlight_watch-books_05.jpg",
+            "rotation": 0
+          }
+        },
+        "image_YR9FHF": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/hp_spotlight_watch-books_03.png",
+            "rotation": -10
+          }
+        }
+      },
+      "block_order": [
+        "image_jPK7rJ",
+        "image_YR9FHF"
+      ],
+      "name": "Spotlight_Watches",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Rolex and other timeless Icons",
+        "title": "Watch Books",
+        "content": "<p>Explore our curated selection of coffee table books about watches featuring luxury timepieces, iconic designs, and expert horological insights.</p>",
+        "button_1_text": "Explore the Collection",
+        "button_1_link": "shopify://collections/watch-books",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    },
+    "featured_collections_YwHRdW": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_F77Mdx": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale",
+            "products_count": 24,
+            "title": "Books for Less",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_F77Mdx"
+      ],
+      "name": "SALE: BOOKS FOR LESS",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Sale"
+      }
+    },
+    "multiple_media_with_text_H49xjK": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_HLVTPA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/p._176_Photo_Mark_Fagelson_The_Americans_gestalten_2024_CHEVROLET_CORVETTE_STING_RAY_1500.jpg",
+            "rotation": 0
+          }
+        },
+        "image_nNxEQf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TheAmericans_gestalten2024_Cover_1000.png",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_HLVTPA",
+        "image_nNxEQf"
+      ],
+      "name": "Spotlight_Beautiful-Machines",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "after_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Book Series",
+        "title": "Beautiful Machines",
+        "content": "<p>Discover captivating stories and timeless car culture, honoring the legacy of legendary models and the spirit of the open road.</p>",
+        "button_1_text": "Explore Collection",
+        "button_1_link": "shopify://collections/beautiful-machines-coffee-table-books-cars-automobiles",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "architecture-interior",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Architecture & Interior",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "fashion-style-coffee-table-books",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Fashion & Style",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "photography-visual-culture-coffee-table-books",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Photography & Visual Culture",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "travel-escape-nature-coffee-table-books",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Travel, Escape & Nature",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "food-drink-cookbooks",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Food & Drink",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-6": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "little-gestalten-childrens-books",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Children's Books",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_9bHLfA": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "automotive-sports",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Automotive & Sports",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_HAnhBn": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "luxury-leisure-coffee-table-books",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Luxury & Leisure",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "collection-4",
+        "collection-5",
+        "collection-6",
+        "collection_9bHLfA",
+        "collection_HAnhBn"
+      ],
+      "name": "EXPLORE OUR CATEGORIES",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": false,
+        "collections_per_row_mobile": "2",
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Explore Our Categories",
+        "content": ""
+      }
+    },
+    "newsletter_cjNQhN": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.presets.newsletter.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "Stay Inspired",
+        "title": "Newsletter",
+        "content": "<p>Get the latest releases, exclusive features, and more—straight to your inbox. Unsubscribe anytime.</p>",
+        "button_text": "Subscribe",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "featured_collections_awwpbd": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_7QCgYC": {
+          "type": "collection",
+          "settings": {
+            "collection": "pre-order",
+            "products_count": 8,
+            "title": "Soon Available",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_7QCgYC"
+      ],
+      "name": "SOON AVAILABLE",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Pre-Order Now"
+      }
+    },
+    "multiple_media_with_text_TyYTcb": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_KLNqzx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HP_spotlight02_stylish-life-series_04.png",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_KLNqzx"
+      ],
+      "name": "SPOTLIGHT_02",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Book Series",
+        "title": "The Stylish Life",
+        "content": "<p>This inspiring series of books celebrates iconic pastimes and refined ways of living—from golf, skiing, tennis, and Grand Prix racing to the art of the perfect cocktail party. Through striking photography and elegant storytelling, each volume captures the atmosphere, passion, and timeless appeal of a life well lived.</p>",
+        "button_1_text": "Explore Collection",
+        "button_1_link": "shopify://collections/the-stylish-life-series-coffee-table-books",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    },
+    "featured_collections_4NRf9f": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_z6jwLV": {
+          "type": "collection",
+          "settings": {
+            "collection": "little-gestalten-childrens-books",
+            "products_count": 24,
+            "title": "Children's Books",
+            "link_url": "shopify://collections/little-gestalten-childrens-books",
+            "link_text": "All Children's Books"
+          }
+        }
+      },
+      "block_order": [
+        "collection_z6jwLV"
+      ],
+      "name": "LITTLE GESTALTEN",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Little Gestalten"
+      }
+    },
+    "multiple_media_with_text_JM4rDa": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_YVcWWA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/KINPAP3_mmt_01.jpg",
+            "rotation": 0
+          }
+        },
+        "image_g9pg9J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-06-16T211908.032.png",
+            "rotation": 2
+          }
+        }
+      },
+      "block_order": [
+        "image_YVcWWA",
+        "image_g9pg9J"
+      ],
+      "name": "SPOTLIGHT_02",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Little Gestalten",
+        "title": "Fishing for Shapes",
+        "content": "<p>Fish, octopus, turtles – what shape are they?! Our latest collaboration with <strong>Marcos Farina </strong>explores first shapes in a colorful and fun way – with underwater creatures!</p>",
+        "button_1_text": "Catch the Book!",
+        "button_1_link": "shopify://products/fishing-for-shapes",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    },
+    "featured_collections_WKCccK": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_fGkLmT": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale-childrens-books-for-less",
+            "products_count": 24,
+            "title": "Children's Books for Less",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_fGkLmT"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "SALE – Little Gestalten"
+      }
+    },
+    "video_6qcVjb": {
+      "type": "video",
+      "blocks": {
+        "heading_AFF4Pz": {
+          "type": "heading",
+          "settings": {
+            "text": "Stillness by Norm Architects",
+            "heading_tag": "h3"
+          }
+        },
+        "play_WTdbXQ": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AFF4Pz",
+        "play_WTdbXQ"
+      ],
+      "name": "VIDEO",
+      "settings": {
+        "autoplay": false,
+        "show_controls": false,
+        "video_size": "fill",
+        "external_video_url": "https://www.youtube.com/watch?v=ljUp8HNb2qk",
+        "poster": "shopify://shop_images/screen_video_NORMAS_1600_1.png",
+        "text_color": "#ffffff"
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "name": "JOURNAL",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "blog": "journal",
+        "posts_count": 3,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_date": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "subheading": "",
+        "title": "Journal",
+        "content": "",
+        "button_link": "",
+        "button_text": "Read More"
+      }
+    },
+    "rich_text_bN7UPf": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_WTw6LG": {
+          "type": "subheading",
+          "settings": {
+            "text": "Follow: @gestalten // @teNeuesPublishing"
+          }
+        },
+        "heading_FiTN8V": {
+          "type": "heading",
+          "settings": {
+            "text": "Social Feed",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_WTw6LG",
+        "heading_FiTN8V"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "17696877423514c360": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_feeds_XiCdMU": {
+          "type": "shopify://apps/instafeed/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_feeds_XiCdMU"
+      ],
+      "name": "SOCIAL FEED",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": true
+      }
+    },
+    "recently_viewed_products_xyFkta": {
+      "type": "recently-viewed-products",
+      "name": "RECENTLY VIEWED",
+      "settings": {
+        "separate_section_with_border": true,
+        "color_scheme": "",
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Recently viewed",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "rich_text_KLXC4k",
+    "slideshow",
+    "featured-collections",
+    "multiple_media_with_text_peKqAk",
+    "featured_collections_YwHRdW",
+    "multiple_media_with_text_H49xjK",
+    "collection-list",
+    "newsletter_cjNQhN",
+    "featured_collections_awwpbd",
+    "multiple_media_with_text_TyYTcb",
+    "featured_collections_4NRf9f",
+    "multiple_media_with_text_JM4rDa",
+    "featured_collections_WKCccK",
+    "video_6qcVjb",
+    "blog-posts",
+    "rich_text_bN7UPf",
+    "17696877423514c360",
+    "recently_viewed_products_xyFkta"
+  ]
+}

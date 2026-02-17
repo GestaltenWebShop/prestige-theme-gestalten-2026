@@ -34,10 +34,35 @@ Supported variables
         {%- endfor -%}
 
       {%- when 'sold_out' -%}
+        {%- assign tags_downcased = product.tags | join: ',' | downcase -%}
+        {%- assign has_coming_soon = false -%}
+        {%- assign has_coming_back_soon = false -%}
+        {%- assign has_pre_order = false -%}
+
+        {%- if tags_downcased contains 'coming soon' -%}
+          {%- assign has_coming_soon = true -%}
+        {%- endif -%}
+        {%- if tags_downcased contains 'coming back soon' -%}
+          {%- assign has_coming_back_soon = true -%}
+        {%- endif -%}
+        {%- if tags_downcased contains 'pre-order' -%}
+          {%- assign has_pre_order = true -%}
+        {%- endif -%}
+
         {%- if settings.show_sold_out_badge and variant.available == false -%}
-          <sold-out-badge class="badge badge--sold-out">
-            {{- 'product.general.sold_out_badge' | t -}}
-          </sold-out-badge>
+          {%- if has_coming_back_soon -%}
+            <span class="badge badge--custom">Coming Back Soon</span>
+          {%- elsif has_coming_soon -%}
+            <span class="badge badge--custom">Coming Soon</span>
+          {%- else -%}
+            <sold-out-badge class="badge badge--sold-out">
+              {{- 'product.general.sold_out_badge' | t -}}
+            </sold-out-badge>
+          {%- endif -%}
+        {%- endif -%}
+
+        {%- if has_pre_order -%}
+          <span class="badge badge--custom">Pre-Order</span>
         {%- endif -%}
 
       {%- when 'discount' -%}

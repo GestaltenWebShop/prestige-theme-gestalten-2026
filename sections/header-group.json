@@ -11,49 +11,63 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "countdown-timer": {
-      "type": "countdown-condensed",
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "<a href=\"/collections/sale\" title=\"SALE: Fine Books for Less\">SALE: Books 50% off or more</a>"
+          }
+        }
+      },
+      "block_order": [
+        "message-1"
+      ],
+      "disabled": true,
       "settings": {
-        "color_scheme": "schema-3",
-        "content": "super Sale Up to 40% off",
-        "link_text": "shop now",
-        "link_url": "shopify://collections/all",
-        "expiration_date": "2025-11-25",
-        "expiration_behavior": "leave",
-        "desktop_justification": "space-between"
+        "color_scheme": "scheme-3",
+        "enable_sticky": false,
+        "autoplay": false,
+        "cycle_speed": 8,
+        "desktop_font_size": 10,
+        "mobile_font_size": 9
       }
     },
     "header": {
       "type": "header",
+      "custom_css": [],
       "settings": {
-        "color_scheme": "schema-2",
+        "color_scheme": "scheme-1",
         "enable_sticky": true,
         "hide_on_scroll": false,
         "show_separation_border": true,
-        "reduce_padding": false,
-        "logo": "{{shop.brand.logo}}",
-        "logo_max_width": 130,
-        "logo_mobile_max_width": 80,
-        "menu": "main-menu",
+        "reduce_padding": true,
+        "logo": "shopify://shop_images/Untitled_design_-_2025-06-16T174834.118.png",
+        "logo_max_width": 90,
+        "logo_mobile_max_width": 90,
+        "menu": "prestige_main",
+        "sidebar_menu": "prestige_main",
         "menu_open_trigger": "hover",
         "menu_text_font": "heading",
         "enable_search": true,
-        "sidebar_color_scheme": "schema-2",
+        "sidebar_color_scheme": "scheme-1",
         "sidebar_text_font": "heading",
-        "sidebar_show_dividers": false,
-        "sidebar_open_second_level_menus": false,
+        "sidebar_show_dividers": true,
+        "sidebar_open_second_level_menus": true,
         "layout": "logo_center_navigation_inline",
         "show_icons": true,
         "show_country_selector": true,
         "show_country_name": false,
         "show_country_flag": true,
-        "show_locale_selector": false,
-        "transparent_header_text_color": "#ffffff"
+        "show_locale_selector": true,
+        "transparent_header_text_color": "#1c1c1c",
+        "transparent_logo": "shopify://shop_images/Untitled_design_-_2025-06-16T174834.118.png"
       }
     }
   },
   "order": [
-    "countdown-timer",
+    "announcement-bar",
     "header"
   ]
 }

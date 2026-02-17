@@ -1,1 +1,225 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"vendor","settings":{}},"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"payment_terms":{"type":"payment_terms","settings":{}},"separator":{"type":"separator","settings":{}},"description":{"type":"description","settings":{}},"variant_picker":{"type":"variant_picker","settings":{}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{}},"pickup_availability":{"type":"pickup_availability","settings":{}},"complementary_products":{"type":"complementary_products","settings":{}}},"block_order":["vendor","title","price","payment_terms","separator","description","variant_picker","quantity_selector","buy_buttons","complementary_products"],"settings":{}},"related-products":{"type":"related-products","settings":{}}},"order":["main","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "collection_tag_figLUH": {
+          "type": "collection_tag",
+          "settings": {
+            "padding_top": 20,
+            "padding_bottom": 0
+          }
+        },
+        "title_cbQnHh": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h1"
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "text_MUAY3G": {
+          "type": "text",
+          "name": "Subtitle",
+          "settings": {
+            "text": "<h5>{{ product.metafields.book.subtitle.value }}</h5>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "text_6qt9Jm": {
+          "type": "text",
+          "name": "Oneliner",
+          "settings": {
+            "text": "<p>{{ product.metafields.book.oneliner.value }}</p>"
+          }
+        },
+        "separator_3gyTWM": {
+          "type": "separator",
+          "settings": {}
+        },
+        "language_versions_nczhVC": {
+          "type": "language_versions",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "text_8nEWHz": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em>Free shipping over $49</em></h6>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#1c1c1c",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_details_HwdpDR": {
+          "type": "product_details",
+          "settings": {
+            "show_below_gallery": true
+          }
+        },
+        "frequently_bought_app_block_qjyiDT": {
+          "type": "shopify://apps/frequently-bought/blocks/app-block/b1a8cbea-c844-4842-9529-7c62dbab1b1f",
+          "disabled": true,
+          "settings": {}
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "More Recommendations",
+            "products_count": 2,
+            "show_below_gallery": false,
+            "stack_products": true,
+            "show_quick_buy": true
+          }
+        },
+        "share_buttons_UHqhYH": {
+          "type": "share_buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collection_tag_figLUH",
+        "title_cbQnHh",
+        "vendor",
+        "text_MUAY3G",
+        "separator",
+        "text_6qt9Jm",
+        "separator_3gyTWM",
+        "language_versions_nczhVC",
+        "price",
+        "text_8nEWHz",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "payment_terms",
+        "product_details_HwdpDR",
+        "frequently_bought_app_block_qjyiDT",
+        "complementary_products",
+        "share_buttons_UHqhYH"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "container_size": "lg",
+        "product_info_size": 35,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid_2x_highlighted",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "1762362255a52b5640": {
+      "type": "apps",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true
+      }
+    },
+    "testimonials_j4ikHx": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_QKbxHT": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>{{ product.metafields.custom.press_quote_1_source.value }}</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_QKbxHT"
+      ],
+      "name": "t:sections.testimonials.presets.testimonials.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "What People Say",
+        "title": "",
+        "content": "<p><em>{{ product.metafields.custom.press_quote_1.value }}</em></p>"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "You may also like",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1762362255a52b5640",
+    "testimonials_j4ikHx",
+    "related-products"
+  ]
+}

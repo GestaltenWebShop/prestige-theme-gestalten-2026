@@ -1,0 +1,66 @@
+{% capture book_details_table %}
+    <div>
+        <table class="product-details">
+            {% if product.metafields.book.editors %}
+                <tr>
+                    <th class="h6">Editors:</th>
+                    <td>{{ product.metafields.book.editors }}</td>
+                </tr>
+            {% endif %}
+            {% if product.metafields.book.release_date %}
+                <tr>
+                    <th class="h6">Release date:</th>
+                    <td>{{ product.metafields.book.release_date | date: "%B %Y" }}</td>
+                </tr>
+            {% endif %}
+            {% if product.metafields.book.format %}
+                <tr>
+                    <th class="h6">Format:</th>
+                    <td>{{ product.metafields.book.format }}</td>
+                </tr>
+            {% endif %}
+            {% if product.metafields.book.features %}
+                <tr>
+                    <th class="h6">Features:</th>
+                    <td>{{ product.metafields.book.features }}</td>
+                </tr>
+            {% endif %}
+            {% if product.metafields.book.pages %}
+                <tr>
+                    <th class="h6">Pages:</th>
+                    <td>{{ product.metafields.book.pages }}</td>
+                </tr>
+            {% endif %}
+            {% if product.metafields.book.isbn %}
+                <tr>
+                    <th class="h6">ISBN:</th>
+                    <td>{{ product.metafields.book.isbn }}</td>
+                </tr>
+            {% endif %}
+        </table>
+    </div>
+{% endcapture %}
+
+<div class="product-info__block-group accordion-group">
+    {% render 'accordion',
+            title: "Description",
+            content: product.description,
+            size: 'lg',
+            prose_content: true,
+            open: true
+    %}
+    {% render 'accordion',
+            title: "Details",
+            content: book_details_table,
+            size: 'lg',
+            prose_content: true
+    %}
+    {% if product.metafields.book.authors_bio != blank %}
+        {% render 'accordion',
+                title: 'About the Author',
+                content: product.metafields.book.authors_bio,
+                size: 'lg',
+                prose_content: true
+        %}
+    {% endif %}
+</div>
