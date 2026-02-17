@@ -1,0 +1,408 @@
+<section
+        class="press-list container container--xs color-scheme color-scheme--{{ section.settings.color_scheme }} section-spacing"
+        data-press-endpoint="{{ section.settings.endpoint | escape }}"
+>
+    <div class="page-width">
+        {% if section.settings.heading != blank %}
+            <h2>{{ section.settings.heading }}</h2>
+        {% endif %}
+
+        <div class="press-search v-stack gap-2 sm:gap-2">
+            <label class="h5 visually-hidden" for="press-search-{{ section.id }}">Search Books</label>
+            <input
+                    id="press-search-{{ section.id }}"
+                    class="press-search__input input"
+                    type="search"
+                    placeholder="Search…"
+                    autocomplete="off"
+            >
+        </div>
+
+        <div id="press-list-{{ section.id }}" class="press-list__grid" aria-live="polite"></div>
+        <div id="press-error-{{ section.id }}" class="press-list__error" hidden></div>
+
+        <button type="button" id="press-more-{{ section.id }}" class="button--sm button press-load-more">
+            Load more
+        </button>
+    </div>
+
+    <script>
+        (async () => {
+            const root = document.currentScript.closest('.press-list');
+            const endpointBase = root.dataset.pressEndpoint;
+
+            const listEl = root.querySelector('#press-list-{{ section.id }}');
+            const errEl  = root.querySelector('#press-error-{{ section.id }}');
+            const moreBtn = root.querySelector('#press-more-{{ section.id }}');
+            const searchInput = root.querySelector('#press-search-{{ section.id }}');
+
+            if (!endpointBase) return;
+
+            const ORIGIN = (new URL(endpointBase, window.location.href)).origin;
+
+            let page = 0;
+            let loading = false;
+            let done = false;
+
+            // { titleRaw, titleEsc, titleLower, isbnRaw, isbnLower, hiResHref, imgSrcAbs, imgAlt }
+            const allItems = [];
+
+            // Stagger settings
+            const STAGGER_MS = 25;
+            const MAX_STAGGER_MS = 450;
+
+            // Your View is 20 items per page
+            const PAGE_SIZE = 20;
+
+            // While searching, how many extra pages we’re allowed to auto-fetch
+            const SEARCH_MAX_PAGES_TO_TRY = 12; // 12 * 20 = 240 extra items max per search burst
+
+            const externalIcon = `
+        <span class="press-item__icon" aria-hidden="true">
+          <svg focusable="false" aria-hidden="true" fill="none" stroke-width="1.1" width="18" viewBox="0 0 24 24">
+            <path d="M14 5h5v5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M10 14 19 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M19 14v5a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </span>
+      `;
+
+            // ---- Boot ----
+            await loadNextPage();
+            moreBtn.addEventListener('click', () => loadNextPage());
+
+            // ---- Search ----
+            const onSearchInput = debounce(async () => {
+                const q = (searchInput.value || '').trim();
+
+                // Empty query: return to browsing mode (stagger)
+                if (!q) {
+                    listEl.innerHTML = '';
+                    appendItemsWithStagger(allItems);
+                    moreBtn.hidden = done ? true : false;
+                    return;
+                }
+
+                moreBtn.hidden = true;
+                const qLower = q.toLowerCase();
+
+                // Render what we already have immediately
+                let matches = getMatches(qLower);
+                renderList(matches);
+
+                // If nothing found, auto-fetch more pages UNTIL we find at least 1 match (or hit end/cap)
+                if (matches.length === 0 && !done) {
+                    await ensureSearchCoverageUntilOneMatch(qLower);
+                    matches = getMatches(qLower);
+                    renderList(matches);
+                }
+            }, 120);
+
+            // IMPORTANT: listener must be OUTSIDE the handler
+            searchInput.addEventListener('input', onSearchInput);
+
+            function getMatches(qLower) {
+                return allItems.filter(x =>
+                    x.titleLower.includes(qLower) ||
+                    (x.isbnLower && x.isbnLower.includes(qLower))
+                );
+            }
+
+            async function ensureSearchCoverageUntilOneMatch(qLower) {
+                const initialMatches = getMatches(qLower).length;
+
+                // For very short queries like "po", keep fetching until we find at least 1 match
+                // (otherwise we might stop too early just because a page didn't include matches)
+                const isShortQuery = qLower.length < 4;
+
+                // Track if we found at least one match at any point
+                let matchCount = initialMatches;
+
+                for (let i = 0; i < SEARCH_MAX_PAGES_TO_TRY; i++) {
+                    if (done) return;
+
+                    const matches = getMatches(qLower);
+
+                    // If query is specific, stop as soon as 1 match is found
+                    if (shouldStopEarlyAtOne(qLower, matches)) return;
+
+                    // If query is short, stop ONLY when we finally have a match
+                    if (isShortQuery && matches.length >= 1) return;
+
+                    // Fetch one more page
+                    const batch = await fetchNextPageOnly();
+                    if (!batch.length) return;
+
+                    const newCount = getMatches(qLower).length;
+
+                    // For longer queries, stop when a new page doesn't add new matches
+                    if (!isShortQuery) {
+                        if (newCount === matchCount) return;
+                    }
+
+                    matchCount = newCount;
+                }
+            }
+
+            // ---- Loading ----
+            async function loadNextPage() {
+                const normalized = await fetchNextPageOnly();
+                if (!normalized.length) return;
+
+                const q = (searchInput.value || '').trim();
+
+                if (q) {
+                    // If user is searching, show filtered results (no stagger)
+                    moreBtn.hidden = true;
+                    renderList(getMatches(q.toLowerCase()));
+                } else {
+                    // Browsing: append only the new batch (staggered)
+                    appendItemsWithStagger(normalized);
+                    moreBtn.hidden = done ? true : false;
+                }
+            }
+
+            async function fetchNextPageOnly() {
+                if (loading || done) return [];
+
+                loading = true;
+                moreBtn.disabled = true;
+                moreBtn.hidden = false;
+                moreBtn.textContent = 'Loading…';
+                errEl.hidden = true;
+
+                try {
+                    const url = setQueryParam(endpointBase, 'page', String(page));
+                    const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+                    if (!res.ok) throw new Error('HTTP ' + res.status);
+
+                    const rows = await res.json();
+                    const items = Array.isArray(rows) ? rows : [];
+
+                    // End: empty page
+                    if (items.length === 0) {
+                        done = true;
+                        moreBtn.hidden = true;
+                        return [];
+                    }
+
+                    const normalized = items.map(normalizeRow).filter(Boolean);
+                    for (const n of normalized) allItems.push(n);
+
+                    page += 1;
+
+                    // Often last page is short
+                    if (items.length < PAGE_SIZE) {
+                        done = true;
+                        moreBtn.hidden = true;
+                    }
+
+                    return normalized;
+                } catch (e) {
+                    errEl.hidden = false;
+                    errEl.textContent = 'Press materials could not be loaded right now.';
+                    console.error('Press list error:', e);
+                    return [];
+                } finally {
+                    loading = false;
+                    moreBtn.disabled = false;
+                    moreBtn.textContent = 'Load more';
+                }
+            }
+
+            function normalizeRow(row) {
+                const { text: titleText } = parseAnchorHtml(row?.title);
+                if (!titleText) return null;
+
+                const { src: imgSrc, alt: imgAlt } = parseImgHtml(row?.image);
+                const { href: hiResHref } = parseAnchorHtml(row?.field_hi_res_images);
+                if (!hiResHref) return null;
+
+                const isbnRaw = String(row?.field_isbn || '').trim();
+
+                return {
+                    titleRaw: titleText,
+                    titleEsc: escapeHtml(titleText),
+                    titleLower: titleText.toLowerCase(),
+
+                    isbnRaw,
+                    isbnLower: isbnRaw.toLowerCase(),
+
+                    hiResHref,
+                    imgSrcAbs: toAbsoluteFromOrigin(ORIGIN, imgSrc),
+                    imgAlt: imgAlt || titleText
+                };
+            }
+
+            // ---- Rendering ----
+            function renderList(items) {
+                listEl.innerHTML = items.map(renderCard).join('');
+            }
+
+            function renderCard(x) {
+                const imgHtml = x.imgSrcAbs
+                    ? `<img class="press-item__packshot" src="${escapeAttr(x.imgSrcAbs)}" alt="${escapeAttr(x.imgAlt)}" loading="lazy" width="74" height="74">`
+                    : '';
+
+                const isbnHtml = x.isbnRaw
+                    ? `<div class="press-item__isbn">${escapeHtml(x.isbnRaw)}</div>`
+                    : '';
+
+                return `
+          <a class="press-item"
+            href="${escapeAttr(x.hiResHref)}"
+            target="_blank"
+            rel="noopener">
+            ${imgHtml}
+            <div class="press-item__text">
+              <div class="press-item__title">${x.titleEsc}</div>
+              ${isbnHtml}
+            </div>
+            ${externalIcon}
+          </a>
+        `;
+            }
+
+            function renderCardEntering(x) {
+                const imgHtml = x.imgSrcAbs
+                    ? `<img class="press-item__packshot" src="${escapeAttr(x.imgSrcAbs)}" alt="${escapeAttr(x.imgAlt)}" loading="lazy" width="74" height="74">`
+                    : '';
+
+                const isbnHtml = x.isbnRaw
+                    ? `<div class="press-item__isbn">${escapeHtml(x.isbnRaw)}</div>`
+                    : '';
+
+                return `
+          <a class="press-item is-entering"
+            href="${escapeAttr(x.hiResHref)}"
+            target="_blank"
+            rel="noopener">
+            ${imgHtml}
+            <div class="press-item__text">
+              <div class="press-item__title">${x.titleEsc}</div>
+              ${isbnHtml}
+            </div>
+            ${externalIcon}
+          </a>
+        `;
+            }
+
+            function appendItemsWithStagger(items) {
+                if (!items || !items.length) return;
+
+                const html = items.map(renderCardEntering).join('');
+                listEl.insertAdjacentHTML('beforeend', html);
+
+                const entering = Array.from(listEl.querySelectorAll('.press-item.is-entering'));
+                if (!entering.length) return;
+
+                const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+                entering.forEach((el, i) => {
+                    const delay = reduceMotion ? 0 : Math.min(i * STAGGER_MS, MAX_STAGGER_MS);
+                    setTimeout(() => el.classList.remove('is-entering'), delay);
+                });
+            }
+
+            // ---- Parsers / helpers ----
+            function parseAnchorHtml(html) {
+                if (!html) return { text: '', href: '' };
+                const doc = new DOMParser().parseFromString(String(html), 'text/html');
+                const a = doc.querySelector('a');
+                return {
+                    text: a?.textContent?.trim() || '',
+                    href: a?.getAttribute('href') || ''
+                };
+            }
+
+            function parseImgHtml(html) {
+                if (!html) return { src: '', alt: '' };
+                const doc = new DOMParser().parseFromString(String(html), 'text/html');
+                const img = doc.querySelector('img');
+                return {
+                    src: img?.getAttribute('src') || '',
+                    alt: img?.getAttribute('alt') || ''
+                };
+            }
+
+            function toAbsoluteFromOrigin(origin, pathOrUrl) {
+                if (!pathOrUrl) return '';
+                try {
+                    return new URL(pathOrUrl, origin).toString();
+                } catch (e) {
+                    return pathOrUrl;
+                }
+            }
+
+            function setQueryParam(url, key, value) {
+                try {
+                    const u = new URL(url, window.location.href);
+                    u.searchParams.set(key, value);
+                    return u.toString();
+                } catch (e) {
+                    return url;
+                }
+            }
+
+            function debounce(fn, wait) {
+                let t;
+                return (...args) => {
+                    clearTimeout(t);
+                    t = setTimeout(() => fn(...args), wait);
+                };
+            }
+
+            function escapeHtml(str) {
+                return String(str ?? '')
+                    .replaceAll('&', '&amp;')
+                    .replaceAll('<', '&lt;')
+                    .replaceAll('>', '&gt;')
+                    .replaceAll('"', '&quot;')
+                    .replaceAll("'", '&#039;');
+            }
+
+            function escapeAttr(str) {
+                return escapeHtml(str);
+            }
+
+            function normalizeIsbnQuery(q) {
+                return String(q || '').toLowerCase().replace(/[\s-]/g, '');
+            }
+
+            function isLikelyIsbn(qLower) {
+                const q = normalizeIsbnQuery(qLower);
+                // digits + optional X, and long enough to be meaningful
+                return /^[0-9x]+$/.test(q) && q.length >= 8;
+            }
+
+            function shouldStopEarlyAtOne(qLower, matches) {
+                if (matches.length < 1) return false;
+
+                // Exact title match (case-insensitive)
+                if (matches.some(m => m.titleLower === qLower)) return true;
+
+                // Exact ISBN match (normalize spaces/dashes)
+                const qIsbn = normalizeIsbnQuery(qLower);
+                if (isLikelyIsbn(qLower) && matches.some(m => normalizeIsbnQuery(m.isbnLower) === qIsbn)) return true;
+
+                // If the query is quite specific, 1 match is probably enough
+                if (qLower.length >= 6) return true;
+
+                return false;
+            }
+
+        })();
+    </script>
+</section>
+
+{% schema %}
+{
+  "name": "Press list (Drupal REST)",
+  "settings": [
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Press materials" },
+    { "type": "url", "id": "endpoint", "label": "REST export URL (use ?_format=json)" }
+  ],
+  "presets": [{ "name": "Press list (Drupal REST export)" }]
+}
+{% endschema %}

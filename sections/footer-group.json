@@ -1,1 +1,149 @@
-{"type":"footer","name":"Footer group","sections":{"text-with-icons":{"type":"text-with-icons","blocks":{"icon-1":{"type":"item","settings":{"title":"Free delivery worldwide"}},"icon-2":{"type":"item","settings":{"title":"Satisfied or refunded"}},"icon-3":{"type":"item","settings":{"title":"Top-notch support"}},"icon-4":{"type":"item","settings":{"title":"Secure payments"}}},"block_order":["icon-1","icon-2","icon-3","icon-4"],"settings":{}},"footer":{"type":"footer","blocks":{"newsletter":{"type":"newsletter","settings":{}},"links":{"type":"links","settings":{"menu":"footer","show_menu_title":true}},"text":{"type":"text","settings":{"title":"About","content":"<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"}}},"block_order":["newsletter","links","text"],"settings":{}}},"order":["text-with-icons","footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "newsletter_mHywfU": {
+      "type": "newsletter",
+      "disabled": true,
+      "name": "t:sections.newsletter.presets.newsletter.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "Newsletter",
+        "title": "Stay Inspired",
+        "content": "<p>Get the latest releases, exclusive features, and more—straight to your inbox. Unsubscribe anytime.</p>",
+        "button_text": "Subscribe",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "text_with_icons_996xeJ": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_NRFQ3d": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Free shipping over $49",
+            "content": ""
+          }
+        },
+        "item_Cg6Q8a": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-tree",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Buy a Book, Plant a Tree.",
+            "content": ""
+          }
+        },
+        "item_DQVcJA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-leaf",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "FSC™️ Certified PAPER",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_NRFQ3d",
+        "item_Cg6Q8a",
+        "item_DQVcJA"
+      ],
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>Sign-up and stay inspired!</p>",
+            "button_background": "#1c1c1c",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "links_mnx4w8": {
+          "type": "links",
+          "settings": {
+            "menu": "customer-service",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "links_nf7emf": {
+          "type": "links",
+          "settings": {
+            "menu": "partner-services",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "About",
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "enable_follow_on_shop": true
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "links_mnx4w8",
+        "links",
+        "links_nf7emf",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "newsletter_mHywfU",
+    "text_with_icons_996xeJ",
+    "footer"
+  ]
+}

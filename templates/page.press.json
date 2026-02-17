@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "md"
+      }
+    },
+    "press_list": {
+      "type": "press-list",
+      "settings": {
+        "heading": "",
+        "endpoint": "https://news.gestalten.com/api/press-packs?_format=json&t=1",
+
+      }
+    },
+    "tabs_nzD93D": {
+      "type": "tabs",
+      "blocks": {
+        "tab_hVzEEj": {
+          "type": "tab",
+          "settings": {
+            "title": "International",
+            "content": "<p><strong>Tatiana von Mallinckrodt</strong></p><p>Die Gestalten Verlag GmbH & Co. KG<br/>Mariannenstr. 9-10<br/>10999 Berlin<br/>Germany</p><p><strong>contact:</strong> <a href=\"mailto:t.mallinckrodt@gestalten.com\" title=\"mailto:t.mallinckrodt@gestalten.com\">t.mallinckrodt@gestalten.com</a> or <a href=\"mailto:press@gestalten.com\" title=\"mailto:press@gestalten.com\">press@gestalten.com</a></p><p><strong>tel:</strong> +49 30 72 61 32 203</p>",
+            "page": "",
+            "open_on_mobile": true
+          }
+        },
+        "tab_rX3y9C": {
+          "type": "tab",
+          "settings": {
+            "title": "Germany, Austria, Switzerland",
+            "content": "<p><strong>Andrea Rehn</strong><br/><br/>Die Gestalten Verlag GmbH & Co. KG<br/>Mariannenstr. 9-10<br/>10999 Berlin<br/>Germany</p><p><strong>contact:</strong> <a href=\"mailto:a.rehn@gestalten.com\" title=\"mailto:a.rehn@gestalten.com\">a.rehn@gestalten.com</a> or <a href=\"mailto:press@gestalten.com\" title=\"mailto:press@gestalten.com\">press@gestalten.com</a></p><p><strong>tel:</strong> +49 30 72 61 32 216</p>",
+            "page": "",
+            "open_on_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "tab_hVzEEj",
+        "tab_rX3y9C"
+      ],
+      "name": "PRESS CONTACTS",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Press Contacts",
+        "text_alignment": "center"
+      }
+    },
+    "images_with_text_scroll_zUCRB6": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_h9WpjT": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/cat_preview_CATS26.png",
+            "subheading": "Spring 26",
+            "title": "gestalten",
+            "content": "<p>Discover all new releases, bestsellers and backlist titles from gestalten.</p>",
+            "link_text": "Download Catalog (PDF)",
+            "link_url": "https://cdn.shopify.com/s/files/1/2717/4124/files/gestalten_CATS26EN_compressed.pdf?v=1765552053",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_HTpqiF": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/preview_cat_teNeues-CATS26.png",
+            "subheading": "Spring 26",
+            "title": "teNeues",
+            "content": "<p>Discover all new releases, bestsellers and backlist titles from teNeues.</p>",
+            "link_text": "Download Catalog (PDF)",
+            "link_url": "https://cdn.shopify.com/s/files/1/2717/4124/files/teNeues_CATS26EN_compressed.pdf?v=1765552052",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_dVEaz3": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/cat_preview_CATKS26.png",
+            "subheading": "Spring 26",
+            "title": "Little Gestalten",
+            "content": "<p>Discover all new releases, bestsellers and backlist titles from Little Gestalten.</p>",
+            "link_text": "Download Catalog (PDF)",
+            "link_url": "https://cdn.shopify.com/s/files/1/2717/4124/files/Little-Gestalten_CATKS26EN_original.pdf?v=1765552050",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_h9WpjT",
+        "image_with_text_HTpqiF",
+        "image_with_text_dVEaz3"
+      ],
+      "name": "Catalogs",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "press_list",
+    "tabs_nzD93D",
+    "images_with_text_scroll_zUCRB6"
+  ]
+}
