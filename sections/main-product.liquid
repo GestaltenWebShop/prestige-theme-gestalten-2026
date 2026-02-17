@@ -97,6 +97,10 @@
 
                 {%- when 'complementary_products' -%}
                   {%- render 'complementary-products', product: product, block: block -%}
+
+                {%- when 'product_details' -%}
+                  {%- render 'product-details', block: block, product: product -%}
+
               {%- endcase -%}
             {%- endfor -%}
           </div>
@@ -1805,6 +1809,49 @@ quick buy information in a template, that will be extracted in JS, which ensures
           "id": "text",
           "label": "t:sections.main_product.blocks.more_information.text",
           "default": "More information"
+        }
+      ]
+    },
+    {
+      "type": "collection_tag",
+      "name": "Collection Tag",
+      "limit": 1,
+        "settings": [
+        {
+          "type": "range",
+          "id": "padding_top",
+          "label": "Space Above",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 60
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "label": "Space Below",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 60
+        }
+      ]
+    },
+    {
+      "type": "language_versions",
+      "name": "Language Versions",
+      "limit": 1
+    },
+    {
+      "type": "product_details",
+      "name": "Product Details",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_below_gallery",
+          "label": "Show below gallery",
+          "default": true
         }
       ]
     }
