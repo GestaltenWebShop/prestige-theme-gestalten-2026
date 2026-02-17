@@ -1,0 +1,310 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "rich_text_kjeP3w": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FDCgBQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Trade & Distribution",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_CGYKfP": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>To place your first order, please contact us directly at <a href=\"mailto:hello@example.com\">usenquiries@gestalten.com</a> or get in touch with the distributor for your region.<br/><br/>For questions about our catalogue, terms, or any other inquiries or suggestions, feel free to reach out — we’re happy to help.<br/><br/>All U.S. orders are fulfilled by Ingram Publisher Services.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FDCgBQ",
+        "richtext_CGYKfP"
+      ],
+      "name": "Intro",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_HttHQ3": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_YUDwBw": {
+          "type": "subheading",
+          "settings": {
+            "text": "gestalten, Little Gestalten & teNeues"
+          }
+        },
+        "heading_pFjcCU": {
+          "type": "heading",
+          "settings": {
+            "text": "Catalogs",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YUDwBw",
+        "heading_pFjcCU"
+      ],
+      "name": "Our Catalogs",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "images_with_text_scroll_DfFWgd": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_xebpXa": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/cat_preview_CATS26.png",
+            "subheading": "Spring 26",
+            "title": "gestalten",
+            "content": "<p>Discover all new releases, bestsellers and backlist titles from gestalten.</p>",
+            "link_text": "Download Catalog (PDF)",
+            "link_url": "https://cdn.shopify.com/s/files/1/2717/4124/files/gestalten_CATS26EN_compressed.pdf?v=1765552053",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_bTiKPK": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/preview_cat_teNeues-CATS26.png",
+            "subheading": "Spring 26",
+            "title": "teNeues",
+            "content": "<p>Discover all new releases, bestsellers and backlist titles from teNeues.</p>",
+            "link_text": "Download Catalog (PDF)",
+            "link_url": "https://cdn.shopify.com/s/files/1/2717/4124/files/teNeues_CATS26EN_compressed.pdf?v=1765552052",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_6MjkdQ": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/cat_preview_CATKS26.png",
+            "subheading": "Spring 26",
+            "title": "Little Gestalten",
+            "content": "<p>Discover all new releases, bestsellers and backlist titles from Little Gestalten.</p>",
+            "link_text": "Download Catalog (PDF)",
+            "link_url": "https://cdn.shopify.com/s/files/1/2717/4124/files/Little-Gestalten_CATKS26EN_original.pdf?v=1765552050",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_xebpXa",
+        "image_with_text_bTiKPK",
+        "image_with_text_6MjkdQ"
+      ],
+      "name": "Catalogs",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_k3PgJM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jhxKnG": {
+          "type": "heading",
+          "settings": {
+            "text": "Marketing Materials",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_YznJhA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>To support your retail efforts, we provide marketing materials — including pack shots and product information — available for easy download and use across your sales platforms.</p>"
+          }
+        },
+        "button_wceW9A": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Press & Marketing Downloads",
+            "url": "https://news.gestalten.com/marketing-and-press/material",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jhxKnG",
+        "richtext_YznJhA",
+        "button_wceW9A"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "tabs_X6e6YR": {
+      "type": "tabs",
+      "blocks": {
+        "tab_KLbJNB": {
+          "type": "tab",
+          "settings": {
+            "title": "USA & Canada",
+            "content": "<p><strong>IPS (Ingram Publisher Services)</strong><br/>1210 Ingram Drive<br/>Chambersburg, PA 17202<br/>United States</p><p><strong>contact: </strong><a href=\"mailto:customer.service@ingrampublisherservices.com\">customer.service@ingrampublisherservices.com</a></p><p><strong>tel:</strong> +1 877 415-0408</p><p><strong>web:</strong> <a href=\"http://ipage.ingrambook.com/\">ipage.ingrambook.com</a></p>",
+            "page": "",
+            "open_on_mobile": true
+          }
+        },
+        "tab_feDFU3": {
+          "type": "tab",
+          "settings": {
+            "title": "United Kingdom",
+            "content": "<p><strong>Die Gestalten Verlag UK Ltd.<br/></strong>65 London Wall<br/>London, EC2M 5TU<br/>United Kingdom<br/><br/><strong>contact:</strong> <a href=\"mailto:UKenquiries@gestalten.com\" title=\"mailto:UKenquiries@gestalten.com\">UKenquiries@gestalten.com</a></p><p><strong>tel:</strong> +44 20 7628 4829</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_PrdfUi": {
+          "type": "tab",
+          "settings": {
+            "title": "Europe",
+            "content": "<p><strong>Die Gestalten Verlag GmbH & Co. KG</strong><br/>Mariannenstrasse 9−10<br/>10999 Berlin<br/>Germany <br/><br/><strong>contact:</strong> <a href=\"mailto:sales@gestalten.com\" title=\"mailto:sales@gestalten.com\">sales@gestalten.com</a></p><p><strong>tel:</strong> +49 (0)30 726 13 2000</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_KLbJNB",
+        "tab_feDFU3",
+        "tab_PrdfUi"
+      ],
+      "name": "Distribution Contacts (1)",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Distribution Contacts",
+        "text_alignment": "center"
+      }
+    },
+    "tabs_EQ7beJ": {
+      "type": "tabs",
+      "blocks": {
+        "tab_4FPLwG": {
+          "type": "tab",
+          "settings": {
+            "title": "France",
+            "content": "<p><strong>Pollen</strong><br/>60 rue Etienne Dolet<br/>92240 Malakoff<br/>France<br/><br/><strong>contact:</strong> <a href=\"mailto:contact@pollen-diffusion.com\" title=\"mailto:contact@pollen-diffusion.com\">contact@pollen-diffusion.com</a></p><p><strong>tel:</strong> +33 (0)1 43 62 08 07</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_QJjgzj": {
+          "type": "tab",
+          "settings": {
+            "title": "The Netherlands",
+            "content": "<p><strong>Persell</strong><br/>Lange Nieuwstraat 191 - I<br/>3111 AJ Schiedam<br/>Nederland</p><p><strong>contact:</strong> <a href=\"mailto:info@persell.nl\" title=\"mailto:info@persell.nl\">info@persell.nl</a></p><p><strong>tel.</strong> +31 (0)10 28 00 840</p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_yBUL39": {
+          "type": "tab",
+          "settings": {
+            "title": "Switzerland",
+            "content": "<p><strong>Buchzentrum AG (BZ)</strong><br/>Denise Lehmann<br/>Industriestr. Ost 10<br/>4614 Hägendorf<br/>Switzerland<br/><br/><strong>contact:</strong> <a href=\"mailto:lehmannd@buchzentrum.ch\" title=\"mailto:lehmannd@buchzentrum.ch\">lehmannd@buchzentrum.ch</a></p><p><strong>tel:</strong> +41 (0) 62 209 27 06</p><p><strong>web:</strong> <a href=\"https://www.buchzentrum.ch\" target=\"_blank\" title=\"https://www.buchzentrum.ch\">www.buchzentrum.ch</a></p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_9JMqx6": {
+          "type": "tab",
+          "settings": {
+            "title": "Australia",
+            "content": "<p><strong>Hardie Grant Publishing</strong><br/>Wurundjeri Country<br/>Level 11, 36 Wellington St<br/>Collingwood, Victoria 3066</p><p><strong>contact:</strong> <a href=\"mailto:sales@hardiegrant.com\" title=\"mailto:sales@hardiegrant.com\">sales@hardiegrant.com</a></p><p><strong>tel:</strong> +61 3 8520 6444</p><p><strong>web:</strong> <a href=\"https://www.hardiegrant.com\" target=\"_blank\" title=\"https://www.hardiegrant.com\">www.hardiegrant.com</a></p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_3epRix": {
+          "type": "tab",
+          "settings": {
+            "title": "Rest of World",
+            "content": "<p>In case a representative for your country is not listed, please feel free to contact us at:<br/></p><p><strong>contact:</strong> <a href=\"mailto:sales@gestalten.com\" title=\"mailto:sales@gestalten.com\">sales@gestalten.com</a></p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_4FPLwG",
+        "tab_QJjgzj",
+        "tab_yBUL39",
+        "tab_9JMqx6",
+        "tab_3epRix"
+      ],
+      "name": "Distribution Contacts (2)",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center"
+      }
+    },
+    "contact_ApUcQK": {
+      "type": "contact",
+      "custom_css": [],
+      "name": "t:sections.contact.presets.contact_form.name",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Still have questions?",
+        "content": "<p>If you didn’t find what you were looking for, feel free to reach out using the form below. We’re here to help and will get back to you as soon as possible.</p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_kjeP3w",
+    "rich_text_HttHQ3",
+    "images_with_text_scroll_DfFWgd",
+    "rich_text_k3PgJM",
+    "tabs_X6e6YR",
+    "tabs_EQ7beJ",
+    "contact_ApUcQK"
+  ]
+}

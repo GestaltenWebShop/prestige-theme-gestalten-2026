@@ -1,0 +1,199 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "rich_text_gFhddx": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_dyHefH": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_BjTVKf": {
+          "type": "heading",
+          "settings": {
+            "text": "Press Area",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_cxBcV9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Download press images, book covers, and selected inside pages for your review. Use the search box to find the book you need.<br/><br/><strong>Usage Guidelines:</strong></p><p>(1) Images may only be used to review the book, crediting the title and copyright.<br/>(2) Do not crop, alter, overlay text, or use images for other topics.<br/>(3) Images may not be shared with third parties or used in electronic systems beyond the review.<br/>(4) Scanning, photographing, or filming book images is strictly prohibited.<br/>(5) Unauthorized use may incur fees.<br/><br/>For additional images or special permissions, please contact us—some materials may require author approval or a fee.<br/><br/>Please send a PDF or digital copy of your publication to <a href=\"mailto:press@gestalten.com\" title=\"mailto:press@gestalten.com\">press@gestalten.com</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_dyHefH",
+        "heading_BjTVKf",
+        "richtext_cxBcV9"
+      ],
+      "name": "PRESS AREA",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "custom_liquid_RpFjG8": {
+      "type": "custom-liquid",
+      "name": "PRESS SEARCH",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p><br><meta charset=\"utf-8\"> <iframe width=\"100%\" src=\"https://news.gestalten.com/press-packs/search\" height=\"200px\" scrolling=\"no\" frameborder=\"0\"></iframe></p>",
+        "text_alignment": "center"
+      }
+    },
+    "tabs_nzD93D": {
+      "type": "tabs",
+      "blocks": {
+        "tab_hVzEEj": {
+          "type": "tab",
+          "settings": {
+            "title": "International",
+            "content": "<p><strong>Tatiana von Mallinckrodt</strong></p><p>Die Gestalten Verlag GmbH & Co. KG<br/>Mariannenstr. 9-10<br/>10999 Berlin<br/>Germany</p><p><strong>contact:</strong> <a href=\"mailto:t.mallinckrodt@gestalten.com\" title=\"mailto:t.mallinckrodt@gestalten.com\">t.mallinckrodt@gestalten.com</a> or <a href=\"mailto:press@gestalten.com\" title=\"mailto:press@gestalten.com\">press@gestalten.com</a></p><p><strong>tel:</strong> +49 30 72 61 32 203</p>",
+            "page": "",
+            "open_on_mobile": true
+          }
+        },
+        "tab_rX3y9C": {
+          "type": "tab",
+          "settings": {
+            "title": "Germany, Austria, Switzerland",
+            "content": "<p><strong>Andrea Rehn</strong><br/><br/>Die Gestalten Verlag GmbH & Co. KG<br/>Mariannenstr. 9-10<br/>10999 Berlin<br/>Germany</p><p><strong>contact:</strong> <a href=\"mailto:a.rehn@gestalten.com\" title=\"mailto:a.rehn@gestalten.com\">a.rehn@gestalten.com</a> or <a href=\"mailto:press@gestalten.com\" title=\"mailto:press@gestalten.com\">press@gestalten.com</a></p><p><strong>tel:</strong> +49 30 72 61 32 216</p>",
+            "page": "",
+            "open_on_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "tab_hVzEEj",
+        "tab_rX3y9C"
+      ],
+      "name": "PRESS CONTACTS",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Press Contacts",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_wYRPcr": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_QFE3Uk": {
+          "type": "subheading",
+          "settings": {
+            "text": "Spring 2026"
+          }
+        },
+        "heading_H3JGQr": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Catalogs",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QFE3Uk",
+        "heading_H3JGQr"
+      ],
+      "name": "HL Catalogs",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "images_with_text_scroll_zUCRB6": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_h9WpjT": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/cat_preview_CATS26.png",
+            "subheading": "Spring 26",
+            "title": "gestalten",
+            "content": "<p>Discover all new releases, bestsellers and backlist titles from gestalten.</p>",
+            "link_text": "Download Catalog (PDF)",
+            "link_url": "https://cdn.shopify.com/s/files/1/2717/4124/files/gestalten_CATS26EN_compressed.pdf?v=1765552053",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_HTpqiF": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/preview_cat_teNeues-CATS26.png",
+            "subheading": "Spring 26",
+            "title": "teNeues",
+            "content": "<p>Discover all new releases, bestsellers and backlist titles from teNeues.</p>",
+            "link_text": "Download Catalog (PDF)",
+            "link_url": "https://cdn.shopify.com/s/files/1/2717/4124/files/teNeues_CATS26EN_compressed.pdf?v=1765552052",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_dVEaz3": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/cat_preview_CATKS26.png",
+            "subheading": "Spring 26",
+            "title": "Little Gestalten",
+            "content": "<p>Discover all new releases, bestsellers and backlist titles from Little Gestalten.</p>",
+            "link_text": "Download Catalog (PDF)",
+            "link_url": "https://cdn.shopify.com/s/files/1/2717/4124/files/Little-Gestalten_CATKS26EN_original.pdf?v=1765552050",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_h9WpjT",
+        "image_with_text_HTpqiF",
+        "image_with_text_dVEaz3"
+      ],
+      "name": "Catalogs",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_gFhddx",
+    "custom_liquid_RpFjG8",
+    "tabs_nzD93D",
+    "rich_text_wYRPcr",
+    "images_with_text_scroll_zUCRB6"
+  ]
+}

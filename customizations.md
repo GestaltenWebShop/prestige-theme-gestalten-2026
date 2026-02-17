@@ -8,6 +8,12 @@ snippets/product-details.liquid
 templates/page.template_allcategories.json
 templates/page.press.json
 sections/press-list.liquid
+templates/page.template_distx.json
+templates/page.template_pressx.json
+templates/page.template_wholesale.json
+templates/page.template_about-us.json
+templates/page.template_bspkx.json
+
 
 ## tracked settings
 templates/index.json

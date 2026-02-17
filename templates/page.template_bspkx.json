@@ -1,0 +1,429 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "rich_text_WthpEb": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_WRixAX": {
+          "type": "subheading",
+          "settings": {
+            "text": "Beautiful Books, Crafted for Brands with Vision"
+          }
+        },
+        "heading_rhDi6q": {
+          "type": "heading",
+          "settings": {
+            "text": "Bespoke Publishing",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_z4gxpa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From custom books to exclusive brand collaborations—we create bespoke publishing experiences that elevate your brand and captivate a global audience.</p><p>Trusted by visionaries across industries, we proudly showcase a selection of bespoke book projects crafted for brands—each bringing a unique story, design, and vision to life.</p>"
+          }
+        },
+        "button_NiTxk3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "Start Your Project",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_WRixAX",
+        "heading_rhDi6q",
+        "richtext_z4gxpa",
+        "button_NiTxk3"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_XMCiV7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_F9NMcU": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_K9jRCd": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_F9NMcU",
+        "richtext_K9jRCd"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "images_with_text_scroll_3GzUqi": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_xDbV8k": {
+          "type": "image_with_text",
+          "name": "ROLNEX 01",
+          "settings": {
+            "image": "shopify://shop_images/prestige_lp_BSPKx_testimonial_01a.png",
+            "subheading": "The Watch Book Series",
+            "title": "Rolex: Next Generation",
+            "content": "<p>Discover the legacy of the world's most iconic watch brand — a captivating journey through its history and legendary timepieces.</p>",
+            "link_text": "See More",
+            "link_url": "shopify://products/teneues-the-watch-book-rolex-next-generation",
+            "link_style": "link"
+          }
+        },
+        "image_with_text_7CzFUh": {
+          "type": "image_with_text",
+          "name": "ROLNEX 02",
+          "settings": {
+            "image": "shopify://shop_images/prestige_lp_BSPKx_testimonial_01b.png",
+            "subheading": "",
+            "title": "A Symbol of Excellence",
+            "content": "<p>This book reinforces Rolex’s legacy as a symbol of excellence, innovation, and timeless prestige. A powerful brand asset that deepens customer loyalty and showcases the enduring values behind every timepiece.</p>",
+            "link_text": "See More",
+            "link_url": "shopify://products/teneues-the-watch-book-rolex-next-generation",
+            "link_style": "link"
+          }
+        },
+        "image_with_text_ANpr67": {
+          "type": "image_with_text",
+          "name": "DSBK 01",
+          "settings": {
+            "image": "shopify://shop_images/prestige_lp_bspk_testimonial_02.png",
+            "subheading": "Designed to Stay",
+            "title": "The Design Hotels™ Book",
+            "content": "<p>This book is more than a showcase — it’s a celebration of places that move you. This definitive book from Design Hotels™ captures the spirit of extraordinary stays, where architecture, culture, and emotion converge to create unforgettable experiences.</p>",
+            "link_text": "See More",
+            "link_url": "shopify://products/designed-to-stay",
+            "link_style": "link"
+          }
+        },
+        "image_with_text_PxPa9D": {
+          "type": "image_with_text",
+          "name": "DSBK 02",
+          "settings": {
+            "image": "shopify://shop_images/prestige_lp_BSPKx_testimonial_03b.jpg",
+            "subheading": "Designed to Stay",
+            "title": "A Premium Marketing Tool",
+            "content": "<p>Showcasing the unique stories, architecture, and cultural depth of the member hotels, it reinforces Design Hotels™ as a leader in curated, design-driven hospitality.</p><p>As a premium marketing tool, it elevates brand perception, strengthens partner visibility, and creates lasting emotional connections with a global audience.</p>",
+            "link_text": "See More",
+            "link_url": "shopify://products/designed-to-stay",
+            "link_style": "link"
+          }
+        },
+        "image_with_text_TBDxfX": {
+          "type": "image_with_text",
+          "name": "MARHOT 01",
+          "settings": {
+            "image": "shopify://shop_images/prestige_lp_BSPKx_testimonial_02a.png",
+            "subheading": "The Complete Art Collection",
+            "title": "Disney Hotel New York: The Art of Marvel",
+            "content": "<p>Step into the Marvel Universe like never before with an exclusive journey through the immersive themed rooms at Disney Hotel New York.</p>",
+            "link_text": "See More",
+            "link_url": "shopify://products/disney-hotel-new-york-the-art-of-marvel",
+            "link_style": "link"
+          }
+        },
+        "image_with_text_mp89hq": {
+          "type": "image_with_text",
+          "name": "MARHOT 02",
+          "settings": {
+            "image": "shopify://shop_images/DisneyHotelNewYorkEN_inside02_694dfd0b-0b8f-40e2-a940-145bc6cb3cb9.png",
+            "subheading": "The Complete Art Collection",
+            "title": "Showcasing The Magic of Marvel",
+            "content": "<p>This book unveils the intricate design details, artistic inspirations, and behind-the-scenes magic that bring Marvel’s heroes to life in a setting where storytelling meets luxury hospitality.</p>",
+            "link_text": "See More",
+            "link_url": "shopify://products/disney-hotel-new-york-the-art-of-marvel",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_xDbV8k",
+        "image_with_text_7CzFUh",
+        "image_with_text_ANpr67",
+        "image_with_text_PxPa9D",
+        "image_with_text_TBDxfX",
+        "image_with_text_mp89hq"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#efefef",
+        "overlay_opacity": 0
+      }
+    },
+    "contact_w9CGBM": {
+      "type": "contact",
+      "name": "t:sections.contact.presets.contact_form.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "subheading": "Tell Us More About Your Project",
+        "title": "Get in Touch",
+        "content": ""
+      }
+    },
+    "media_grid_MixADF": {
+      "type": "media-grid",
+      "blocks": {
+        "image_TDKrFR": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/prestige_lp_BSPKx_testimonial_01_a6c07fd1-8fa1-4094-8d8b-08c94d9fff0d.png",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "See More",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BPyeGA": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/prestige_lp_BSPKx_testimonial_02_bd1898ba-c9f1-4ccb-abc8-f95991c6eefb.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "See More",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_DXnQn7": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/prestige_lp_BSPKx_testimonial_03_a9eb554a-2bd5-4030-ac8d-2ddda9088230.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "See More",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_TDKrFR",
+        "image_BPyeGA",
+        "image_DXnQn7"
+      ],
+      "disabled": true,
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "Trusted by Visionaries Across Industries.",
+        "content": ""
+      }
+    },
+    "rich_text_aQeXgz": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_XFcX8b": {
+          "type": "subheading",
+          "settings": {
+            "text": "Why Bespoke Publishing?"
+          }
+        },
+        "heading_M4X3qg": {
+          "type": "heading",
+          "settings": {
+            "text": "Because Great Brands Deserve Great Stories",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_9JeJNc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Whether you're launching a flagship product, celebrating a milestone, or deepening cultural capital—we make your story unforgettable.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XFcX8b",
+        "heading_M4X3qg",
+        "richtext_9JeJNc"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "multi_column_tHnBL9": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_AGr6TM": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Custom Books",
+            "heading_tag": "h3",
+            "content": "<p>Client-commissioned projects</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_aYmyXb": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Co-Branded Editions",
+            "heading_tag": "h3",
+            "content": "<p>Collaborations initiated by gestalten/teNeues with brand tie-ins</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_3kjdD8": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Cultural Activations",
+            "heading_tag": "h3",
+            "content": "<p>Anythings beyond the printed pages: events, campaigns, workshops and more</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_AGr6TM",
+        "image_with_text_aYmyXb",
+        "image_with_text_3kjdD8"
+      ],
+      "disabled": true,
+      "name": "t:sections.multi_column.presets.multi_column.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "What We Offer",
+        "title": "Our Services",
+        "content": ""
+      }
+    },
+    "rich_text_EfDciC": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_bU9hLK": {
+          "type": "subheading",
+          "settings": {
+            "text": "About gestalten & teNeues"
+          }
+        },
+        "heading_arf8fm": {
+          "type": "heading",
+          "settings": {
+            "text": "Two Publishing Icons, One Shared Vision",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_RXqPDh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>gestalten and teNeues combine decades of publishing excellence. Together, we craft distinctive publications that embody aesthetics, storytelling, and brand prestige—shaping cultural capital across the globe.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_bU9hLK",
+        "heading_arf8fm",
+        "richtext_RXqPDh"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WthpEb",
+    "rich_text_XMCiV7",
+    "images_with_text_scroll_3GzUqi",
+    "contact_w9CGBM",
+    "media_grid_MixADF",
+    "rich_text_aQeXgz",
+    "multi_column_tHnBL9",
+    "rich_text_EfDciC"
+  ]
+}
