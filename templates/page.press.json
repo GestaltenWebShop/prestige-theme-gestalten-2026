@@ -1,7 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_title": true,
@@ -48,9 +58,9 @@
     "press_list": {
       "type": "press-list",
       "settings": {
+        "color_scheme": "",
         "heading": "",
-        "endpoint": "https://news.gestalten.com/api/press-packs?_format=json&t=1",
-
+        "endpoint": "https://news.gestalten.com/api/press-packs?_format=json&t=1"
       }
     },
     "tabs_nzD93D": {
