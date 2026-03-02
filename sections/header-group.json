@@ -43,9 +43,9 @@
         "hide_on_scroll": false,
         "show_separation_border": true,
         "reduce_padding": true,
-        "logo": "shopify://shop_images/Untitled_design_-_2025-06-16T174834.118.png",
-        "logo_max_width": 90,
-        "logo_mobile_max_width": 90,
+        "logo": "shopify://shop_images/prestige_logo_gestltaten-tN_360x90_2f665a03-4ce9-4a68-a68e-387328c8df57.png",
+        "logo_max_width": 180,
+        "logo_mobile_max_width": 140,
         "menu": "prestige_main",
         "sidebar_menu": "prestige_main",
         "menu_open_trigger": "hover",
@@ -62,7 +62,7 @@
         "show_country_flag": true,
         "show_locale_selector": true,
         "transparent_header_text_color": "#1c1c1c",
-        "transparent_logo": "shopify://shop_images/Untitled_design_-_2025-06-16T174834.118.png"
+        "transparent_logo": "shopify://shop_images/prestige_logo_gestalten-teeNeues_180x60_a85a53b6-df6c-4eaf-9f20-59f82c6b36ac.png"
       }
     }
   },
