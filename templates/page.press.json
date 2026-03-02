@@ -8,6 +8,43 @@
         "page_width": "md"
       }
     },
+    "rich_text_gFhddx": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_dyHefH": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_BjTVKf": {
+          "type": "heading",
+          "settings": {
+            "text": "Press Area",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_cxBcV9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Download press images, book covers, and selected inside pages for your review. Use the search box to find the book you need.<br/><br/><strong>Usage Guidelines:</strong></p><p>(1) Images may only be used to review the book, crediting the title and copyright.<br/>(2) Do not crop, alter, overlay text, or use images for other topics.<br/>(3) Images may not be shared with third parties or used in electronic systems beyond the review.<br/>(4) Scanning, photographing, or filming book images is strictly prohibited.<br/>(5) Unauthorized use may incur fees.<br/><br/>For additional images or special permissions, please contact us—some materials may require author approval or a fee.<br/><br/>Please send a PDF or digital copy of your publication to <a href=\"mailto:press@gestalten.com\" title=\"mailto:press@gestalten.com\">press@gestalten.com</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_dyHefH",
+        "heading_BjTVKf",
+        "richtext_cxBcV9"
+      ],
+      "name": "PRESS AREA",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "press_list": {
       "type": "press-list",
       "settings": {
@@ -109,6 +146,7 @@
   },
   "order": [
     "main",
+    "rich_text_gFhddx",
     "press_list",
     "tabs_nzD93D",
     "images_with_text_scroll_zUCRB6"
