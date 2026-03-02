@@ -30,7 +30,7 @@
    1. ```cd /Users/mattdavis/Sites/prestige-theme-gestalten-2026-2```
    2. ```git checkout gestalten```
 2. ## Login to the store (only needed occasionally)
-   1. ```shopify login --store your-store-name.myshopify.com```
+   1. ```shopify auth login```
 3. ## Start the local development server
    1. ```shopify theme dev```
 
