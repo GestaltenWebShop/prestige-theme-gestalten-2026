@@ -226,5 +226,14 @@ footer .link-faded {
     opacity: 0.8;
 }
 
+compare-at-price.h5 {
+    font-family: var(--heading-font-family) !important;
+    font-size: var(--text-h5) !important;
+    font-weight: var(--heading-font-weight) !important;
+    font-style: var(--heading-font-style) !important;
+    letter-spacing: var(--heading-letter-spacing) !important;
+    text-transform: var(--heading-text-transform) !important;
+}
+
 
 
