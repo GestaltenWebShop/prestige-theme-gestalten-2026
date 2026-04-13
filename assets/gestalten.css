@@ -239,5 +239,19 @@ compare-at-price.h5 {
     text-transform: none !important;
 }
 
+.release-date-note {
+    display: flex;
+    border: solid 1px;
+    align-items: center;
+    gap: 0.5rem;
+    color: #b35c5c;
+    padding: 0.25rem 0.5rem 0;
+}
+
+.release-date-note__icon {
+    width: 18px;
+    height: 20px;
+    flex: 0 0 auto;
+}
 
 

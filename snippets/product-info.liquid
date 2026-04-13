@@ -126,16 +126,37 @@ Supported variables
               {%- render 'vendor' with placeholder_vendor, class: 'h6 link-faded' -%}
             {%- endif -%}
 
-            {%- when 'pre_order_badge' -%}
+            {%- when 'pre_order_release_date' -%}
                 {%- assign has_pre_order = false -%}
-                {%- if product.template_suffix contains 'pre-order' -%}
+                {%- if product.tags contains 'pre-order' -%}
                     {%- assign has_pre_order = true -%}
                 {%- endif -%}
 
                 {%- if has_pre_order -%}
-                    <div class="product-badge-above-title">
-                        Pre-Order
-                    </div>
+                    {% assign release_date = product.metafields.book.release_date.value %}
+                    {% if release_date != blank %}
+                        <div class="release-date-note">
+                            <svg
+                                    class="release-date-note__icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 20 20"
+                                    fill="none"
+                                    aria-hidden="true"
+                                    focusable="false"
+                            >
+                                <path
+                                        d="M6 2V5M14 2V5M3 8H17M5 4H15C15.5523 4 16 4.44772 16 5V15C16 15.5523 15.5523 16 15 16H5C4.44772 16 4 15.5523 4 15V5C4 4.44772 4.44772 4 5 4Z"
+                                        stroke="currentColor"
+                                        stroke-width="1"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                />
+                            </svg>
+                            <span>Available on {{ product.metafields.book.release_date.value | date: "%B %d, %Y" }}</span>
+                        </div>
+                    {% endif %}
                 {%- endif -%}
 
           {%- when 'title' -%}
@@ -554,7 +575,7 @@ Supported variables
             {%- endif -%}
         {%- endcase -%}
       {%- endcapture -%}
-      
+
       {%- if allow_block_group and inside_block_group_context == false -%}
         {%- assign inside_block_group_context = true -%}
         <div class="product-info__block-group {{ block_group_class }}" data-group-type="{{ block_group_name }}">
