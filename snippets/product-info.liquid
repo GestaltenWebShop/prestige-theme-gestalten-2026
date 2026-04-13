@@ -17,6 +17,8 @@ Supported variables
 * context: the context of the product info. Can be "main_product", "featured_product" or "quick_buy"
 {%- endcomment -%}
 
+
+
 <safe-sticky class="product-info {% if center_basic_info %}product-info--center{% endif %}">
   <div class="product-info__block-list">
     {%- liquid
@@ -115,7 +117,8 @@ Supported variables
           {%- when '@app' -%}
             {%- render block -%}
 
-          {%- when 'vendor' -%}
+
+            {%- when 'vendor' -%}
             {%- if product != blank -%}
               {%- render 'vendor' with product.vendor, class: 'h6 link-faded' -%}
             {%- else -%}
@@ -123,12 +126,25 @@ Supported variables
               {%- render 'vendor' with placeholder_vendor, class: 'h6 link-faded' -%}
             {%- endif -%}
 
+            {%- when 'pre_order_badge' -%}
+                {%- assign has_pre_order = false -%}
+                {%- if product.template_suffix contains 'pre-order' -%}
+                    {%- assign has_pre_order = true -%}
+                {%- endif -%}
+
+                {%- if has_pre_order -%}
+                    <div class="product-badge-above-title">
+                        Pre-Order
+                    </div>
+                {%- endif -%}
+
           {%- when 'title' -%}
             {%- if product != blank -%}
               {%- assign product_title = product.title -%}
             {%- else -%}
               {%- assign product_title = 'general.on_boarding.product_title' | t -%}
             {%- endif -%}
+
 
             {%- if request.page_type == 'product' and context == 'main_product' -%}
               <h1 class="product-title {{ block.settings.heading_tag }}">

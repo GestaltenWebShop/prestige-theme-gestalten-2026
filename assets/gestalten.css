@@ -235,5 +235,9 @@ compare-at-price.h5 {
     text-transform: var(--heading-text-transform) !important;
 }
 
+.vendor.smallcaps {
+    text-transform: none !important;
+}
+
 
 

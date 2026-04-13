@@ -1,5 +1,5 @@
 <section
-        class="press-list container container--xs color-scheme color-scheme--{{ section.settings.color_scheme }} section-spacing"
+        class="press-list container container--lg color-scheme color-scheme--{{ section.settings.color_scheme }} section-spacing"
         data-press-endpoint="{{ section.settings.endpoint | escape }}"
 >
     <div class="page-width">
@@ -18,7 +18,17 @@
             >
         </div>
 
-        <div id="press-list-{{ section.id }}" class="press-list__grid" aria-live="polite"></div>
+        <!--<div id="press-list-{{ section.id }}" class="press-list__grid" aria-live="polite"></div>-->
+        <div class="collection">
+            <div class="collection__main">
+                <div
+                        id="press-list-{{ section.id }}"
+                        class="product-list"
+                        collection-mobile-layout="medium"
+                        collection-desktop-layout="medium"
+                ></div>
+            </div>
+        </div>
         <div id="press-error-{{ section.id }}" class="press-list__error" hidden></div>
 
         <button type="button" id="press-more-{{ section.id }}" class="button--sm button press-load-more">
@@ -239,7 +249,7 @@
                 listEl.innerHTML = items.map(renderCard).join('');
             }
 
-            function renderCard(x) {
+            /*function renderCard(x) {
                 const imgHtml = x.imgSrcAbs
                     ? `<img class="press-item__packshot" src="${escapeAttr(x.imgSrcAbs)}" alt="${escapeAttr(x.imgAlt)}" loading="lazy" width="74" height="74">`
                     : '';
@@ -261,6 +271,35 @@
             ${externalIcon}
           </a>
         `;
+            }*/
+
+            function renderCard(x) {
+                const imgHtml = x.imgSrcAbs
+                    ? `<div class="product-card__media product-card">
+                     <img
+                       src="${escapeAttr(x.imgSrcAbs)}"
+                       alt="${escapeAttr(x.imgAlt)}"
+                       loading="lazy"
+                       class="product-card__image"
+                     >
+                   </div>`
+                                : '';
+
+                            const isbnHtml = x.isbnRaw
+                                ? `<div class="product-card__subtitle">${escapeHtml(x.isbnRaw)}</div>`
+                                : '';
+
+                            return `
+                <a class="product-card"
+                   href="${escapeAttr(x.hiResHref)}"
+                   target="_blank"
+                   rel="noopener">
+
+                  TEST
+
+
+                </a>
+              `;
             }
 
             function renderCardEntering(x) {
@@ -272,18 +311,13 @@
                     ? `<div class="press-item__isbn">${escapeHtml(x.isbnRaw)}</div>`
                     : '';
 
-                return `
+                return `<div class="product-card">
           <a class="press-item is-entering"
             href="${escapeAttr(x.hiResHref)}"
             target="_blank"
             rel="noopener">
             ${imgHtml}
-            <div class="press-item__text">
-              <div class="press-item__title">${x.titleEsc}</div>
-              ${isbnHtml}
-            </div>
-            ${externalIcon}
-          </a>
+          </a></div>
         `;
             }
 
